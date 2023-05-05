@@ -45,21 +45,21 @@ The objective of the model should be to accurately predict diabetes outcome, whi
 Table 1: Comparing accuracy scores and F-1 scores for 3 models with no hyperparameter tuning:
 |   |Logistic Regresson   |Decision Tree   |Support Vector Machine   |
 |---|---|---|---|
-|Traingin Accuracy  |0.78   |0.85   |0.85   |
+|Training Accuracy  |0.78   |0.85   |0.85   |
 |Testing Accuracy   |0.73   |0.71   |0.71   |
 |F-1 score   |0.69   |0.66   |0.65   |
 
 Table 2: Comparing accuracy scores and F-1 scores for 3 models with hyperparameter tuning using GridSearchCV:
 |   |Logistic Regresson   |Random Forest   |Support Vector Machine   |
 |---|---|---|---|
-|Traingin Accuracy  |0.78   |0.88   |0.77   |
+|Training Accuracy  |0.78   |0.88   |0.77   |
 |Testing Accuracy   |0.75   |0.73   |0.75   |
 |F-1 score   |0.70   |0.69   |0.70   |
 
 Table 3: Comparing accuracy scores and F-1 scores for 3 models after GridSearchCV and dropping 2 features with least importance as determined by the Random Forest model:
 |   |Logistic Regresson   |Random Forest   |Support Vector Machine   |
 |---|---|---|---|
-|Traingin Accuracy  |0.77   |0.88   |0.77   |
+|Training Accuracy  |0.77   |0.88   |0.77   |
 |Testing Accuracy   |0.78   |0.79   |0.77   |
 |F-1 score   |0.75   |0.76   |0.73   |
 
