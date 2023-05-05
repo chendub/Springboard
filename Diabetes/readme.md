@@ -40,7 +40,7 @@ Additionally, we looked at feature importances based on the Random Forest model 
 
 Figure 3. Feature importances based on the Random Forest model.
 
-The objective of the model should be to accurately predict diabetes outcome, while minimizing false positive and false negative predictions. Therefore the F-1 score for all of the models were also calculated.  The accuracy scores and F-1 scores are organized into the following tables:
+The objective of the model should be to accurately predict diabetes outcome, while minimizing false positive and false negative predictions. Therefore the F-1 score for all of the models were also calculated and evaluated.  The accuracy scores and F-1 scores are organized into the following tables:
 
 Table 1: Comparing accuracy scores and F-1 scores for 3 models with no hyperparameter tuning:
 |   |Logistic Regresson   |Decision Tree   |Support Vector Machine   |
