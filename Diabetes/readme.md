@@ -30,9 +30,9 @@ Data was split into a 75% train set and 25% test set. The train and test sets we
 
 A simple Logistic Regression model was fitted initially without any hyperparameter tuning. The model is then evaluated using the accuracy score.  The training accuracy for this model is 0.78 while the testing accuracy is 0.73. We then tried to improve the model using GridSearchCV. The resulting best estimator has the parameters of ‘C’ = 10.0, ‘penalty’ = ‘l1’ and yields a training accuracy of 0.78 and testing accuracy of 0.75.
 
-A simple Decision Tree model gives a training accuracy of 0.83 and testing accuracy of 0.81. We then used the GridSearchCV method to fit a Random Forest model. The best parameters were determined to have the following best parameters:  {'criterion': 'entropy', 'max_depth': 20, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 16, 'n_estimators': 300}. Using this model, we got a training accuracy of 0.91, and testing accuracy of 0.80.
+A simple Decision Tree model gives a training accuracy of 0.85 and testing accuracy of 0.71. We then used the GridSearchCV method to fit a Random Forest model. The best parameters were determined to have the following best parameters:  {'criterion': 'entropy', 'max_depth': 20, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 16, 'n_estimators': 300}. Using this model, we got a training accuracy of 0.88, and testing accuracy of 0.73.
 
-A Support Vector Machine model was also used. Without any hyperparameter tuning, it gives a training accuracy of 0.81 and testing accuracy of 0.81. After hyperparameter tuning, the training accuracy is 0.76 and testing accuracy is 0.81.
+A Support Vector Machine model was also used. Without any hyperparameter tuning, it gives a training accuracy of 0.85 and testing accuracy of 0.71. After hyperparameter tuning, the training accuracy is 0.77 and testing accuracy is 0.75.
 
 Additionally, we looked at feature importances based on the Random Forest model (figure 3.) and refitted models with the 2 least important features (‘BloodPressure’ and ‘SkinThickness’) dropped. Best estimators for Logistic Regression, Random Forest and Support Vector Machine after GridSearchCV were refitted and we did see improvement in test metrics in all of three models. 
 
